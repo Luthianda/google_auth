@@ -24,6 +24,9 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
+Route::get('auth/google', [HomeController::class, 'redirect'])->name('google-auth');
+Route::get('auth/google/call-back', [HomeController::class, 'CallbackGoogle']);
+
 require __DIR__ . '/auth.php';
 
 Route::middleware(['auth', 'admin'])->group(function () {
@@ -35,3 +38,5 @@ Route::middleware(['auth', 'user'])->group(function () {
     // middleware untuk bagian user
     route::get('user/dashboard', [HomeController::class, 'indexUser']);
 });
+
+

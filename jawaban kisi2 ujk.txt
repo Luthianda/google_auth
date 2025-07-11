@@ -1,0 +1,50 @@
+1. a. HyperText Markup Language
+2. c. <p>
+3. a. <img src="image.jpg>
+4. b. <a>
+5. a. <table>
+6. b. <ul>
+7. b. bgcolor
+8. a. <br>
+9. b. size
+10. b. <strong>
+11. a. Cascading Style Sheets
+12. b. <link rel="stylesheet" type="text/css" href="styles.css">
+13. b. color
+14. c. margin
+15. b. font-size
+16. a. #nama_id
+17. b. text-decoration
+18. a. padding
+19. a. height
+20. b. .nama_class
+21. c. Bahasa pemrograman untuk membuat halaman web dinamis dan interaktif 
+22. a. var variableName
+23. a. alert()
+24. b. /* Comment */
+25. b. onclick
+26. b. element.innerHTML
+27. a. push()
+28. c. for
+29. a. document.createElement() 
+30. b. document.getElementById()  
+31. b. Bahasa pemrograman untuk membuat halaman web dinamis 
+32. a. echo "Hello, World!";
+33. a. $variable;
+34. d. a dan b benar
+35. b. POST
+36. d. Semua benar
+37. a. count()
+38. a. isset()
+39. b. $array[index]
+40. a. function functionName() {}  
+41. a. Menyimpan data dari form yang dikirim dengan metode POST  
+42. c. exit() 
+43. a. session_start() 
+44. a. Menyimpan variabel sesi pengguna 
+45. a. define("CONSTANT_NAME", value);   
+46. a. try...catch
+47. a. Menghubungkan ke database MySQL  
+48. a. mail()
+49. a. Membaca seluruh isi file ke dalam string
+50. a. fopen("file.txt", "w");
